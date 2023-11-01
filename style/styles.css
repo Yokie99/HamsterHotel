@@ -1,3 +1,88 @@
-h1{
-    color: aqua;
+.bgLogo {
+  background-color: #000324;
+}
+.logoSize {
+  width: 143px;
+  height: 100px;
+}
+.boxLogo {
+  width: auto;
+  height: 120px;
+  background-color: #000324;
+}
+.dosis {
+  font-family: Dosis, Times, serif;
+  font-size: 20px;
+  color: white;
+}
+
+.borderLogo{
+    border: 2px solid white;
+}
+
+.headerSize{
+    width: 1920px;
+    height: 500px;
+    overflow: hidden;
+}
+
+.headerImg{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: 0px -70px;
+
+}
+.headerInside{
+    position: absolute;
+    width: 945px;
+    height: 232px;
+    color: #E5FEFF;
+    background-color: #000324CC;
+    
+}
+
+.headerInside p{
+    font-size: 20px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+.headerInside h1{
+    padding-top: 59px;
+    padding-left: 200px;
+    
+    font-size: 45px;
+}
+
+.awardBox{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.roomsBox{
+    width: auto;
+    height: 738px;
+    background-image: url(../hotelMarkupAssets/bg2.jpg);
+}
+
+.roomsCard{
+    display: flex;
+    justify-content: space-evenly;
+}
+.roomsBox h1{
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.packageBox{
+    width: auto;
+    height: 1000px;
+    background-color: bisque;
+
+}
+
+.packageBox img{
+    width: 560px;
+    height: 235px;
 }
