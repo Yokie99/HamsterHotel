@@ -77,12 +77,60 @@
 
 .packageBox{
     width: auto;
-    height: 1000px;
-    background-color: bisque;
+    height: 900px;
+    background-color: white;
 
 }
 
-.packageBox img{
+.packageElement{
     width: 560px;
     height: 235px;
+}
+
+.amenBox{
+    width: auto;
+    height: 500px;
+    background-image: url(../hotelMarkupAssets/bg.jpg);
+    background-repeat: no-repeat; 
+    background-size: 100%;
+    position: relative;
+    
+}
+
+.amenBox h1{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 35px;
+}
+.amenBox h2{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.amenPics{
+    display: flex;
+    justify-content: space-evenly;
+}
+.amenBox h3{
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.resContainer{
+    width: auto;
+    height: 800px;
+    
+}
+
+.resBox{
+    width: 1137px;
+    height: 621px;
+    
+   
+    background-image: url(../hotelMarkupAssets/hamsterreserve.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
 }
