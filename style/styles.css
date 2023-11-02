@@ -126,11 +126,18 @@
 .resBox{
     width: 1137px;
     height: 621px;
-    
-   
     background-image: url(../hotelMarkupAssets/hamsterreserve.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    
+}
+
+.resText{
+    color: white;
+    text-align: center;
+}
+
+.test{
+    text-align: center;
+    color: #E5FEFF;
 }
