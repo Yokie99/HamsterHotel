@@ -54,10 +54,16 @@
     
     font-size: 45px;
 }
+.awardContainer{
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
 
 .awardBox{
-    display: flex;
-    justify-content: space-evenly;
+    width: auto;
+    height: auto;
+    padding-right: 200px;
+    padding-left: 200px;
 }
 
 .roomsBox{
@@ -110,11 +116,13 @@
 
 .amenPics{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 .amenBox h3{
     color: #FFFFFF;
     font-size: 16px;
+    margin-top: 20px;
+    text-align: center;
 }
 
 .resContainer{
@@ -137,7 +145,7 @@
     text-align: center;
 }
 
-.test{
+.footerText{
     text-align: center;
     color: #E5FEFF;
 }
