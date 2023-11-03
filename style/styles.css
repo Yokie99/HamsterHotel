@@ -1,11 +1,11 @@
-.dosis{
-    font-family: Dosis, Times, serif;
+.dosis {
+  font-family: Dosis, Times, serif;
 }
-.sanspro{
-    font-family: 'Source Sans 3', sans-serif;
+.sanspro {
+  font-family: "Source Sans 3", sans-serif;
 }
-.blue{
-    color: #1F51A8;
+.blue {
+  color: #1f51a8;
 }
 .bgLogo {
   background-color: #000324;
@@ -25,272 +25,292 @@
   color: white;
 }
 
-.borderLogo{
-    border: 2px solid white;
+.borderLogo {
+  border: 2px solid white;
 }
 
-.headerSize{
-    width: auto;
-    height: 500px;
-    overflow: hidden;
+.headerSize {
+  width: auto;
+  height: 500px;
+  overflow: hidden;
 }
 
-.headerImg{
+.headerImg {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: 0px -70px;
+}
+.headerInside {
+  text-align: center;
+  position: absolute;
+  width: auto;
+  padding-left: 200px;
+  padding-right: 200px;
+  color: #e5feff;
+  background-color: #000324cc;
+}
+
+.headerInside p {
+  font-size: 20px;
+  padding-bottom: 80px;
+  text-align: center;
+  font-family: "Source Sans 3", sans-serif;
+}
+
+.headerInside h1 {
+  padding-top: 59px;
+  font-size: 45px;
+  font-family: Dosis, Times, serif;
+}
+.awardContainer {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.awardBox {
+  width: 100%;
+  height: auto;
+  padding-right: 200px;
+  padding-left: 200px;
+}
+
+.roomsBox {
+  width: auto;
+  height: 738px;
+  background-image: url(../hotelMarkupAssets/bg2.jpg);
+}
+
+.roomsCard {
+  display: flex;
+  justify-content: space-evenly;
+}
+.roomsBox h1 {
+  text-align: center;
+  color: #ffffff;
+}
+
+.packageBox {
+  width: auto;
+  height: 900px;
+  background-color: white;
+}
+
+.packageElement {
+  width: 560px;
+  height: 235px;
+}
+
+.amenBox {
+  width: auto;
+  height: 500px;
+  background-image: url(../hotelMarkupAssets/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+}
+
+.amenBox h1 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 35px;
+}
+.amenBox h2 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.amenBox h3 {
+  color: #ffffff;
+  font-size: 16px;
+  margin-top: 20px;
+  text-align: center;
+}
+.amenPics {
+  display: flex;
+  justify-content: center;
+}
+
+.resContainer {
+  width: auto;
+  height: 800px;
+}
+
+.resBox {
+  width: 1137px;
+  height: 621px;
+  background-image: url(../hotelMarkupAssets/hamsterreserve.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.resText {
+  color: white;
+  text-align: center;
+}
+
+.footerText {
+  text-align: center;
+  color: #e5feff;
+}
+
+.awardBoxTM {
+  background-image: url(../hotelMarkupAssets/bg2.jpg);
+}
+.awardTextTM {
+  color: white;
+  text-align: center;
+}
+
+.packageElementTM {
+  width: 50%;
+  height: auto;
+}
+.packageTextTM {
+  text-align: center;
+  font-size: 16px;
+}
+
+.amenBoxTM {
+  width: auto;
+  height: auto;
+  padding-bottom: 50px;
+  background-image: url(../hotelMarkupAssets/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+}
+.amenBoxTM h1 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 35px;
+}
+.amenBoxTM h2 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 16px;
+}
+.amenBoxTM h3 {
+  color: #ffffff;
+  font-size: 16px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.resBoxTM {
+  width: 100%;
+  height: 700px;
+  background-image: url(../hotelMarkupAssets/hamsterreserve.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.resTextTM {
+  color: white;
+}
+
+.logoMM {
+  width: 75px;
+  height: auto;
+}
+.navListMM {
+  list-style-type: none;
+}
+
+.btnSizeMM {
+  width: 200px;
+  height: auto;
+}
+
+.headerSizeMM {
+  width: auto;
+  height: 100px;
+  overflow: hidden;
+}
+
+.headerImgMM {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.headerInsideMM {
+  text-align: center;
+  position: absolute;
+  width: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #e5feff;
+  background-color: #000324cc;
+}
+
+.headerInsideMM p {
+  font-size: 10px;
+
+  text-align: center;
+  font-family: "Source Sans 3", sans-serif;
+}
+
+.headerInsideMM h1 {
+  padding-top: 6px;
+  font-size: 20px;
+  font-family: Dosis, Times, serif;
+}
+
+.awardBoxMM {
+  width: 100%;
+  height: auto;
+}
+
+.awardImgMM {
+  width: auto;
+  height: 70px;
+}
+
+.vert {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  white-space: nowrap;
+  font-size: 90px;
+
+  color: white;
+}
+.vertLeft {
+  writing-mode: vertical-rl;
+  white-space: nowrap;
+  font-size: 90px;
+
+  color: white;
+}
+
+.amenTextMM{
+    color: white;
+    text-align: center;
+}
+
+
+.amenBoxMM{
+    display: flex; 
+    content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.amenBoxMM img{
+    width: 60%;
+    height: 100px; 
+}
+
+.resBoxMM {
     width: 100%;
     height: auto;
-    object-fit: cover;
-    object-position: 0px -70px;
-
-}
-.headerInside{
-    text-align: center;
-    position: absolute;
-    width: auto;
-    padding-left: 200px;
-    padding-right: 200px;
-    color: #E5FEFF;
-    background-color: #000324CC;
-    
-}
-
- .headerInside p{
-    font-size: 20px;
-    padding-bottom: 80px;
-    text-align: center;
-    font-family: 'Source Sans 3', sans-serif;
-}
-
-.headerInside h1{
-    padding-top: 59px;    
-    font-size: 45px;
-    font-family: Dosis, Times, serif;
-}
-.awardContainer{
-    padding-top: 200px;
-    padding-bottom: 200px;
-}
-
-.awardBox{
-    width: 100%;
-    height: auto;
-    padding-right: 200px;
-    padding-left: 200px;
-}
-
-.roomsBox{
-    width: auto;
-    height: 738px;
-    background-image: url(../hotelMarkupAssets/bg2.jpg);
-}
-
-.roomsCard{
-    display: flex;
-    justify-content: space-evenly;
-}
-.roomsBox h1{
-    text-align: center;
-    color: #FFFFFF;
-}
-
-.packageBox{
-    width: auto;
-    height: 900px;
-    background-color: white;
-
-}
-
-.packageElement{
-    width: 560px;
-    height: 235px;
-}
-
-.amenBox{
-    width: auto;
-    height: 500px;
-    background-image: url(../hotelMarkupAssets/bg.jpg);
-    background-repeat: no-repeat; 
-    background-size: 100%;
-    position: relative;
-    
-}
-
-.amenBox h1{
-    text-align: center;
-    color: #FFFFFF;
-    font-size: 35px;
-}
-.amenBox h2{
-    text-align: center;
-    color: #FFFFFF;
-    font-size: 16px;
-}
-
-.amenBox h3{
-    color: #FFFFFF;
-    font-size: 16px;
-    margin-top: 20px;
-    text-align: center;
-}
-.amenPics{
-    display: flex;
-    justify-content: center;
-}
-
-
-.resContainer{
-    width: auto;
-    height: 800px;
-    
-}
-
-.resBox{
-    width: 1137px;
-    height: 621px;
     background-image: url(../hotelMarkupAssets/hamsterreserve.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-}
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
 
-.resText{
-    color: white;
-    text-align: center;
-}
-
-.footerText{
-    text-align: center;
-    color: #E5FEFF;
-}
-
-
-.awardBoxTM{
-    background-image: url(../hotelMarkupAssets/bg2.jpg);
-}
-.awardTextTM{
-    color: white;
-    text-align: center;
-}
-
-.packageElementTM{
-    width: 50%;
-    height: auto;
-}
-.packageTextTM{
-    text-align: center;
-    font-size: 16px;
-}
-
-.amenBoxTM{
-    width: auto;
-    height: auto;
-    padding-bottom: 50px;
-    background-image: url(../hotelMarkupAssets/bg.jpg);
-    background-repeat: no-repeat; 
-    background-size: 100%;
-    position: relative;   
-}
-.amenBoxTM h1{
-    text-align: center;
-    color: #FFFFFF;
-    font-size: 35px;
-}
-.amenBoxTM h2{
-    text-align: center;
-    color: #FFFFFF;
-    font-size: 16px;
-}
-.amenBoxTM h3{
-    color: #FFFFFF;
-    font-size: 16px;
-    margin-top: 20px;
-    text-align: center;
-}
-
-.resBoxTM{
-    width: 100%;
-    height: 700px;
-    background-image: url(../hotelMarkupAssets/hamsterreserve.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-.resTextTM{
-    color: white;
-}
-
-.logoMM{
-    width: 75px;
-    height: auto;
-}
-.navListMM{
-    list-style-type: none;
-}
-
-.btnSizeMM{
-    width: 200px;
-    height: auto;
-}
-
-.headerSizeMM{
-    width: auto;
-    height: 100px;
-    overflow: hidden;
-}
-
-.headerImgMM{
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-   
-
-}
-.headerInsideMM{
-    text-align: center;
-    position: absolute;
-    width: auto;
-    padding-left: 20px;
-    padding-right: 20px; 
-    color: #E5FEFF;
-    background-color: #000324CC;
-    
-}
-
- .headerInsideMM p{
-    font-size: 10px;
-   
-    text-align: center;
-    font-family: 'Source Sans 3', sans-serif;
-}
-
-.headerInsideMM h1{
-     padding-top: 6px;     
-    font-size: 20px;
-    font-family: Dosis, Times, serif;
-}
-
-
-.awardBoxMM{
-    width: 100%;
-    height: auto;
-}
-
-.awardImgMM{
-    width: auto;
-    height: 70px;
-}
-
-.vert{
-    writing-mode: vertical-rl; 
-    transform: rotate(180deg); 
-    white-space: nowrap; 
-    font-size: 90px;
-    
-    color: white;
-}
-.vertLeft{
-    writing-mode: vertical-rl;  
-    white-space: nowrap; 
-    font-size: 90px;
-    
-    color: white;
-}
+  
