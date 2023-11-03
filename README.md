@@ -18,6 +18,8 @@
 - For the reserve a room, the boxes need to be sharper. The title needs more space padding at the top.
 - For the footer, you need more padding at the top and bottom.
 
+- You forgot a lot of alt tags.
+
 - For laptop mode, items are center, a lot of extra white space for the welcome to a hamster, and packages. The reserve button is out of place.
 
 - Mobile version has a huge white line on the right. The welcome hamster picture is hugging the left.
