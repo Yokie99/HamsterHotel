@@ -4,6 +4,9 @@
 .sanspro{
     font-family: 'Source Sans 3', sans-serif;
 }
+.blue{
+    color: #1F51A8;
+}
 .bgLogo {
   background-color: #000324;
 }
@@ -281,6 +284,13 @@
     transform: rotate(180deg); 
     white-space: nowrap; 
     font-size: 90px;
-    padding-bottom: 30px;
+    
     color: white;
-  }
+}
+.vertLeft{
+    writing-mode: vertical-rl;  
+    white-space: nowrap; 
+    font-size: 90px;
+    
+    color: white;
+}
