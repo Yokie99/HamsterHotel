@@ -215,12 +215,6 @@
     color: white;
 }
 
-@media (max-width: 767px) {
-    .mobile{
-        display: block;
-    }
-}
-
 .logoMM{
     width: 75px;
     height: auto;
@@ -271,14 +265,22 @@
     font-family: Dosis, Times, serif;
 }
 
-.awardContainerMM{
-    /* padding-top: 200px;
-    padding-bottom: 200px; */
-}
 
 .awardBoxMM{
     width: 100%;
     height: auto;
-    /* padding-right: 200px;
-    padding-left: 200px; */
 }
+
+.awardImgMM{
+    width: auto;
+    height: 70px;
+}
+
+.vert{
+    writing-mode: vertical-rl; 
+    transform: rotate(180deg); 
+    white-space: nowrap; 
+    font-size: 90px;
+    padding-bottom: 30px;
+    color: white;
+  }

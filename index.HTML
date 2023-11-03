@@ -17,7 +17,7 @@
 </head>
 
 <body>
-    <div class="d-none d-md-block d-xl-none"> <!--Desktop and tablet start-->
+    <div class="d-none d-md-block"> <!--Desktop and tablet start-->
         <div class="boxLogo">
             <div class="row m-0">
                 <div class="col-5 d-flex align-self-end justify-content-end">
@@ -596,7 +596,7 @@
     </div> <!--TABLET END-->
 
 
-    <div class="d-none d-md-block d-xl-none"> <!-- FOOTER START Desktop and Tablet  -->
+    <div class="d-none d-md-block"> <!-- FOOTER START Desktop and Tablet  -->
 
         <div class="container-fluid bgLogo">
             <div class="row d-flex justify-content-center">
@@ -615,9 +615,7 @@
 
     </div><!-- FOOTER END -->
 
-
-
-    <div class="mobile"><!--mobile Start-->
+    <div class=" d-sm-block d-md-none"><!--mobile Start-->
 
         <div class="accordion bgLogo" id="accordionExample"> <!-- NAVBAR START -->
             <div class="accordion-item bgLogo">
@@ -655,62 +653,128 @@
         </div> <!--header end-->
 
 
-        <div class="awardContainerMM d-flex justify-content-center align-items-center">
-            <div class="awardBoxMM">
-                <div class="row">
-                   
-                        <img src="./hotelMarkupAssets/hamsterhomejpg.jpg" alt="">
-                
-                        <div class="row">
-                            <h1 class="dosis">Welcome to a hamster's paradise</h1>
-                            <p class="sanspro">Nestled in the heart of Cavia California, La Petite Maison is a luxury
-                                hotel
-                                designed for the small
-                                mammal with extravagance in mind. Escape to the warm comforts of stunning rooms, a
-                                relaxing
-                                spa,
-                                and
-                                a pool with a beach side view.
-                            </p>
 
-                            <p class="pb-5 sanspro">Inspired by the warm beauty of the California Coast, we invite
-                                you to
-                                enjoy the rich accommodations along with our unmatched luxury. Discover the satisfaction
-                                of
-                                indulging in our quality rooms, and thank you for choosing La Petite Maison.
-                            </p>
-                        </div>
+        <div class="row"> <!--awards start-->
+            <div class="col-4">
 
-                        <div class="row d-none d-xxl-block">
-                            <div class="container-fluid d-flex justify-content-evenly">
-                                <img src="./hotelMarkupAssets/awardfinest.png" alt="">
-                                <img src="./hotelMarkupAssets/awardsatisfaction.png" alt="">
-                                <img src="./hotelMarkupAssets/awardgenuine.png" alt="">
-                            </div>
+                <img class="img-fluid" src="./hotelMarkupAssets/hamsterhomejpg.jpg" alt="">
 
-                        </div>
-                    
+            </div>
+            <div class="col">
+                <h1 class="dosis">Welcome to a hamster's paradise</h1>
+                <p class="sanspro">Nestled in the heart of Cavia California, La Petite Maison is a luxury
+                    hotel
+                    designed for the small
+                    mammal with extravagance in mind. Escape to the warm comforts of stunning rooms, a
+                    relaxing
+                    spa,
+                    and
+                    a pool with a beach side view.
+                </p>
 
+                <p class="pb-5 sanspro">Inspired by the warm beauty of the California Coast, we invite
+                    you to
+                    enjoy the rich accommodations along with our unmatched luxury. Discover the satisfaction
+                    of
+                    indulging in our quality rooms, and thank you for choosing La Petite Maison.
+                </p>
 
-                </div>
-                <div class="row pt-3 d-none d-md-block d-lg-none">
-
-                    <div class="container-fluid d-flex justify-content-evenly">
-                        <img src="./hotelMarkupAssets/awardfinest.png" alt="">
-                        <img src="./hotelMarkupAssets/awardsatisfaction.png" alt="">
-                        <img src="./hotelMarkupAssets/awardgenuine.png" alt="">
-                    </div>
-
-
+                <div class="container-fluid d-flex justify-content-evenly">
+                    <img class="awardImgMM" src="./hotelMarkupAssets/awardfinest.png" alt="">
+                    <img class="awardImgMM" src="./hotelMarkupAssets/awardsatisfaction.png" alt="">
+                    <img class="awardImgMM" src="./hotelMarkupAssets/awardgenuine.png" alt="">
                 </div>
             </div>
-
         </div>
+
+
+        <div class="row bgLogo">
+            <div class="col-3">
+                <strong class="vert dosis">Our rooms</strong>
+            </div>
+            <div class="col">
+                <div id="carouselExample" class="carousel slide">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <div class="card p-0" style="width: 100%;">
+                            <img src="./hotelMarkupAssets/room1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title dosis">Queen Room</h5>
+                                <b class="card-text sanspro">850 SQ FT room with city view</b>
+                                <ul class="card-text sanspro">
+                                    <li>One queen size bed</li>
+                                    <li>Seed Bar, fireplace and large balcony</li>
+                                    <li>Small kitchen with a refrigerator and stove</li>
+        
+        
+                                    <a href="#" class="btn btn-primary sanspro">Reserve</a>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="card p-0" style="width: 100%;">
+                            <img src="./hotelMarkupAssets/room3.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title dosis">King Room</h5>
+                                <b class="card-text sanspro">950 SQ FT room with beach view</b>
+                                <ul class="card-text sanspro">
+                                    <li>One king size bed</li>
+                                    <li>Seed Bar, fireplace and large balcony</li>
+                                    <li>Small kitchen with a refrigerator and stove</li>
+        
+                                </ul>
+                                <a href="#" class="btn btn-primary sanspro">Reserve</a>
+                            </div>
+                        </div>
+        
+                        
+                      </div>
+                      <div class="carousel-item">
+                        <div class="card p-0" style="width: 100%;">
+                            <img src="./hotelMarkupAssets/room2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title dosis">Beach Side Suite</h5>
+                                <b class="card-text sanspro">1500 SQ FT Suite with beach view</b>
+                                <ul class="card-text sanspro">
+                                    <li>One California king size bed</li>
+                                    <li>Second room with fireplace, hot tub, and balcony </li>
+                                    <li>Seed Bar and coffee station</li>
+                                    <li>Full kitchen with a refrigerator, stove, and island</li>
+        
+                                </ul>
+                                <a href="#" class="btn btn-primary sanspro">Reserve</a>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+            <div class="col-3">
+                
+            </div>
+        </div>
+        
+
+
+
+
+
+
 
 
 
 
     </div> <!--mobile end-->
+
+
 
 
 
