@@ -214,3 +214,71 @@
 .resTextTM{
     color: white;
 }
+
+@media (max-width: 767px) {
+    .mobile{
+        display: block;
+    }
+}
+
+.logoMM{
+    width: 75px;
+    height: auto;
+}
+.navListMM{
+    list-style-type: none;
+}
+
+.btnSizeMM{
+    width: 200px;
+    height: auto;
+}
+
+.headerSizeMM{
+    width: auto;
+    height: 100px;
+    overflow: hidden;
+}
+
+.headerImgMM{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+   
+
+}
+.headerInsideMM{
+    text-align: center;
+    position: absolute;
+    width: auto;
+    padding-left: 20px;
+    padding-right: 20px; 
+    color: #E5FEFF;
+    background-color: #000324CC;
+    
+}
+
+ .headerInsideMM p{
+    font-size: 10px;
+   
+    text-align: center;
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+.headerInsideMM h1{
+     padding-top: 6px;     
+    font-size: 20px;
+    font-family: Dosis, Times, serif;
+}
+
+.awardContainerMM{
+    /* padding-top: 200px;
+    padding-bottom: 200px; */
+}
+
+.awardBoxMM{
+    width: 100%;
+    height: auto;
+    /* padding-right: 200px;
+    padding-left: 200px; */
+}
