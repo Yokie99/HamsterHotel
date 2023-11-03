@@ -27,3 +27,11 @@
 
 - I like how your mobile version the packages and rooms you can scroll through them.
 
+// Final Changes
+- populated all alt tags for images
+- adjusted the white space in the award section 
+- changed the font for "our rooms" and used corrected casing
+- corrected the spacing for the room cards using margins 
+- corrected the text in the amenities section
+
+- fixed white space on mobile layout
