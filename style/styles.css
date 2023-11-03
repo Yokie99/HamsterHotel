@@ -1,3 +1,9 @@
+.dosis{
+    font-family: Dosis, Times, serif;
+}
+.sanspro{
+    font-family: 'Source Sans 3', sans-serif;
+}
 .bgLogo {
   background-color: #000324;
 }
@@ -10,7 +16,7 @@
   height: 120px;
   background-color: #000324;
 }
-.dosis {
+.dosisNav {
   font-family: Dosis, Times, serif;
   font-size: 20px;
   color: white;
@@ -48,11 +54,13 @@
     font-size: 20px;
     padding-bottom: 80px;
     text-align: center;
+    font-family: 'Source Sans 3', sans-serif;
 }
 
 .headerInside h1{
     padding-top: 59px;    
     font-size: 45px;
+    font-family: Dosis, Times, serif;
 }
 .awardContainer{
     padding-top: 200px;
@@ -149,3 +157,4 @@
     text-align: center;
     color: #E5FEFF;
 }
+
