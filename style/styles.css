@@ -68,7 +68,7 @@
 }
 
 .awardBox{
-    width: auto;
+    width: 100%;
     height: auto;
     padding-right: 200px;
     padding-left: 200px;
@@ -122,16 +122,17 @@
     font-size: 16px;
 }
 
-.amenPics{
-    display: flex;
-    justify-content: center;
-}
 .amenBox h3{
     color: #FFFFFF;
     font-size: 16px;
     margin-top: 20px;
     text-align: center;
 }
+.amenPics{
+    display: flex;
+    justify-content: center;
+}
+
 
 .resContainer{
     width: auto;
@@ -158,3 +159,58 @@
     color: #E5FEFF;
 }
 
+
+.awardBoxTM{
+    background-image: url(../hotelMarkupAssets/bg2.jpg);
+}
+.awardTextTM{
+    color: white;
+    text-align: center;
+}
+
+.packageElementTM{
+    width: 50%;
+    height: auto;
+}
+.packageTextTM{
+    text-align: center;
+    font-size: 16px;
+}
+
+.amenBoxTM{
+    width: auto;
+    height: auto;
+    padding-bottom: 50px;
+    background-image: url(../hotelMarkupAssets/bg.jpg);
+    background-repeat: no-repeat; 
+    background-size: 100%;
+    position: relative;   
+}
+.amenBoxTM h1{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 35px;
+}
+.amenBoxTM h2{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+.amenBoxTM h3{
+    color: #FFFFFF;
+    font-size: 16px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.resBoxTM{
+    width: 100%;
+    height: 700px;
+    background-image: url(../hotelMarkupAssets/hamsterreserve.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.resTextTM{
+    color: white;
+}
